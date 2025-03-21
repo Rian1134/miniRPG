@@ -9,7 +9,7 @@ print("Peraturan:\n"
       "\nBlock = hanya bisa dilakukan jika power pemain yang diserang lebih dari lawan\n"
       "\nPower = memperkuat action secara acak (1/10)\n"
       "\nExclusive = action yang hanya bisa dilakukan bila mendapat power 10 dan tidak bisa di block\n"
-      "\nsetiap pemain hanya\n")
+      "\nsetiap pemain hanya 4 action\n")
 
 pemainSatu = input("masukan nama(pamain 1): ")
 pemainDua = input("masukan nama (pemain 2): ")
