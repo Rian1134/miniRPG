@@ -1,2 +1,2 @@
-# myGame
+# miniRPG
  
