@@ -16,6 +16,9 @@ pemainDua = input("masukan nama (pemain 2): ")
 hpSatu = 1000
 hpDua = 1000
 
+giliran1 = True
+giliran2 = False
+
 actionP1 = []
 actionP2 = []
 
@@ -73,3 +76,23 @@ print(f"\nPemain1\t:{pemainSatu}\n"
       f"hp\t:{hpDua}\n"
       f"action\t:{actionP2}\n"
       )
+
+start = input("mulai(y/n): ")
+if start == 'y':
+  os.system('cls')
+  while hpSatu >= 0 or hpDua >= 0:
+    turn = 1
+    turn = turn + 1
+    print(f"turn: {turn}")
+    print(f"pemain 1: {hpSatu}")
+    print(f"pemain 2: {hpDua}")
+    while giliran1 == True:
+      print(f"{pemainSatu} apa yang ingin dilakukan?\n")
+      for x in actionP1:
+        print(f"hp: {hpSatu}")
+        print(actionP1.index, ".", x)
+        turnP1 = input("pilih action: ")
+        turnP1 = actionP1[turnP1]
+        
+  
+      
